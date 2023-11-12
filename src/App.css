@@ -8,3 +8,21 @@
    max-width: 90%;
    margin: 0 auto;
 }
+.btn {
+   padding: 10px 20px;
+   border: none;
+   margin-top: 20px;
+   font-size: 18px;
+   border-radius: 6px;
+   transition: all 0.3s;
+   cursor: pointer;
+}
+
+.btn.btn-primary {
+   background-color: rgb(9, 2, 114);
+   color: #fff;
+}
+
+.btn.btn-primary:hover {
+   background-color: rgb(97, 1, 112);
+}

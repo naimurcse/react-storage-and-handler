@@ -1,0 +1,14 @@
+.user-cart {
+   /* border: 1px solid red; */
+   padding: 30px;
+   background-color: rgb(254, 251, 247);
+   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+.user-title {
+   margin-bottom: 15px;
+}
+.balance {
+   color: blue;
+   font-weight: bold;
+}
