@@ -16,6 +16,7 @@
    border-radius: 6px;
    transition: all 0.3s;
    cursor: pointer;
+   margin-right: 10px;
 }
 
 .btn.btn-primary {
@@ -25,4 +26,11 @@
 
 .btn.btn-primary:hover {
    background-color: rgb(97, 1, 112);
+}
+.btn.btn-danger {
+   background-color: rgb(168, 3, 44);
+   color: #fff;
+}
+.btn.btn-danger:hover {
+   background-color: rgb(134, 3, 36);
 }

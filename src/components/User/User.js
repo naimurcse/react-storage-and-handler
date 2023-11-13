@@ -1,6 +1,6 @@
 import React from "react";
 import "./User.css";
-import { setToLocalStorage } from "../../utilities/fakedb";
+import { removeFromCart, setToLocalStorage } from "../../utilities/fakedb";
 
 const User = (props) => {
    const { id, name, address, picture, balance } = props.user;
@@ -18,6 +18,9 @@ const User = (props) => {
          <p>Id: {id}</p>
          <button className="btn btn-primary" onClick={() => addToCart(id)}>
             Add to Cart
+         </button>
+         <button className="btn btn-danger" onClick={() => removeFromCart(id)}>
+            Remove
          </button>
       </div>
    );
